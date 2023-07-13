@@ -1,0 +1,114 @@
+* {
+    font-family: "Circular", sans-serif;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #0a0a0a;
+    font-family: "Circular-strong", sans-serif;
+    letter-spacing: -1px;
+}
+
+h3 {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+
+p {
+    color: #555;
+    margin-bottom: 1rem;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.nav-top {
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-bottom: solid 1px #CCC;
+}
+
+.nav {
+    color: #555 !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+.item {
+    color: #555;
+    font-size: 0.83rem;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #5fa0a2;
+}
+
+.btn-login {
+    display: inline-block;
+    background: #79B0B1;
+    color: #FFF;
+    border: none;
+    border-radius: 2rem;
+    padding: 6px 0.6rem 3px 10px;
+    position: relative;
+    font-size: 1rem;
+}
+
+.btn-login:hover {
+    background: #5fa0a2;
+}
+
+
+.nav-tel {
+    color: #79B0B1;
+    font-size: 16px;
+    line-height: 1.6;
+    border-left: solid 1px #79B0B1;
+    padding: 1.2rem 0px 14px 50px
+}
+
+#img-header {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 300%;
+    height: auto;
+}
+
+#img-header img {
+    margin-top: 4rem;
+    border-radius: 0;
+}
+
+.propiedad-card {
+    border: none;
+    width: 23.9rem;
+    border-radius: 20px;
+}
+
+.propiedad-card img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.borderCard {
+    border: solid 1px #cfcfcf;
+    border-radius: 0px 0px 20px 20px;
+}
