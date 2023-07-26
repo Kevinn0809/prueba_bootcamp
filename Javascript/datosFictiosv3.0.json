@@ -1,0 +1,81 @@
+[{
+        "nombre": "Juan Pérez",
+        "edad": 25,
+        "imagen": "https://example.com/images/juan.jpg",
+        "grupo_sanguineo": "A+",
+        "madre": {
+            "nombre": "María García",
+            "edad": 50,
+            "grupo_sanguineo": "O+"
+        },
+        "padre": {
+            "nombre": "José López",
+            "edad": 55,
+            "grupo_sanguineo": "B+"
+        }
+    },
+    {
+        "nombre": "Laura Smith",
+        "edad": 20,
+        "imagen": "https://example.com/images/laura.jpg",
+        "grupo_sanguineo": "AB-",
+        "madre": {
+            "nombre": "Susana Jones",
+            "edad": 45,
+            "grupo_sanguineo": "A-"
+        },
+        "padre": {
+            "nombre": "Juan Brown",
+            "edad": 48,
+            "grupo_sanguineo": "B-"
+        }
+    },
+    {
+        "nombre": "Pedro González",
+        "edad": 30,
+        "imagen": "https://example.com/images/pedro.jpg",
+        "grupo_sanguineo": "O-",
+        "madre": {
+            "nombre": "María Sánchez",
+            "edad": 55,
+            "grupo_sanguineo": "A+"
+        },
+        "padre": {
+            "nombre": "José López",
+            "edad": 58,
+            "grupo_sanguineo": "B+"
+        }
+    },
+    {
+        "nombre": "María Hernández",
+        "edad": 35,
+        "imagen": "https://example.com/images/maria.jpg",
+        "grupo_sanguineo": "A+",
+        "madre": {
+            "nombre": "Susana Jones",
+            "edad": 50,
+            "grupo_sanguineo": "A-"
+        },
+        "padre": {
+            "nombre": "Juan Brown",
+            "edad": 53,
+            "grupo_sanguineo": "B-"
+        }
+    },
+    {
+        "nombre": "José García",
+        "edad": 40,
+        "imagen": "https://example.com/images/jose.jpg",
+        "grupo_sanguineo": "AB-",
+        "madre": {
+            "nombre": "María Sánchez",
+            "edad": 55,
+            "grupo_sanguineo": "A+"
+        },
+        "padre": {
+            "nombre": "José López",
+            "edad": 58,
+            "grupo_sanguineo": "B+"
+        }
+    }
+]

@@ -108,6 +108,20 @@ img {
     border-radius: 20px 20px 0px 0px;
 }
 
+.propiedadPrecio {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.icono img {
+    background-size: 27px;
+    width: 31px;
+    height: auto;
+    content: "";
+    opacity: 0.6;
+}
+
 .borderCard {
     border: solid 1px #cfcfcf;
     border-radius: 0px 0px 20px 20px;
