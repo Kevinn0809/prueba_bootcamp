@@ -2,7 +2,7 @@
 
 // let titulo1 = document.querySelector("#titulo")
 // titulo1.innerHTML = `Hola ` + nombreUsuario + ``
-let K = [
+let km = [
     {
         nombreProyecto: 'Monterivera',
         imgProyecto: 'https://amarilo.com.co/campana-primas/assets/proyectos/monterrivera-render-1.jpg',
@@ -53,16 +53,16 @@ let K = [
 
 let grillaProyectos = document.querySelector ("#proyectosA")    
 
-for (let amarilo = 0; amarilo < K.length; amarilo++) {
+for (let amarilo = 0; amarilo < km.length; amarilo++) {
     grillaProyectos.innerHTML += `
-        <div class="col">
+        <div class="col m-0m mt-5 p-0">
             <div class="card" style="width: 348px;">
-                <img src="${K[amarilo].imgProyecto}" class="card-img-top" alt="...">
+                <img src="${km[amarilo].imgProyecto}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <div class=""><b>Proyecto:</b> ${K[amarilo].nombreProyecto}</div>
-                    <div class=""><b>Precio desde:</b> ${K[amarilo].precioProyecto}</div>
-                    <div class=""><b>Area:</b> ${K[amarilo].areaProyecto}</div>
-                    <div class=""><b>Cantidad de unidades:</b> ${K[amarilo].cantidadProyecto}</div>
+                    <div class=""><b>Proyecto:</b> ${km[amarilo].nombreProyecto}</div>
+                    <div class=""><b>Precio desde:</b> ${km[amarilo].precioProyecto}</div>
+                    <div class=""><b>Area:</b> ${km[amarilo].areaProyecto}</div>
+                    <div class=""><b>Cantidad de unidades:</b> ${km[amarilo].cantidadProyecto}</div>
                 </div>
             </div>
         </div>
