@@ -53,8 +53,31 @@ exports.obtenerUnSoloObjeto = async (req, res) => {
     }
 }
 
-exports.actualizarObjetos = (req, res) => {
-    res.send('actualizando objetos')
+exports.actualizarObjetos = async (req, res) => {
+    try {
+        let regexIdMongo = /^[0-9a-fA-F]{24}$/
+        if (regexIdMongo.test(req.params.id)) {
+            const objetoData = await Objeto.findById(req.params.id)
+            if (!objetoData) {
+                res.status(404).send('El id proporcionado no se encuentra')
+            } else {
+                const { nombre, edad, urlImagen } = req.body
+
+                objetoData.nombre = nombre
+                objetoData.edad = edad
+                objetoData.urlImagen = urlImagen
+
+
+                let objetoActualizado = await Objeto.findOneAndUpdate({ _id: req.params.id }, objetoData)
+                res.json(objetoActualizado)
+            }
+        } else {
+            res.status(418).send('El id proporcionado no existe o no es correcto')
+        }
+    } catch (error) {
+        console.log(error)
+        res.status(502).send('Ups.. Ocurrió algo con el proceso')
+    }
 }
 
 exports.eliminarObjetos = async (req, res) => {
@@ -68,9 +91,12 @@ exports.eliminarObjetos = async (req, res) => {
             }
             await Objeto.findOneAndRemove({ _id: req.params.id })
             res.send('Objeto eliminado')
+        } else {
+            res.status(418).send('El id proporcionado no existe o no es correcto')
         }
     } catch (error) {
-
+        console.log(error)
+        res.status(502).send('Ups... Ocurrió algo con el proceso')
     }
 }
 
