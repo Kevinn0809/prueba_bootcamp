@@ -3,9 +3,9 @@
     src: url(/html/assets/fonts/NetflixSans.woff2);
 }
 
-*{
+* {
     font-family: 'Netflix';
-    letter-spacing: 0!important;
+    letter-spacing: 0 !important;
 }
 
 body {
@@ -26,7 +26,7 @@ body::-webkit-scrollbar-track {
     background: #000;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background: #e50914;
     border-radius: 50px;
 }
@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     flex-direction: column;
     max-width: 314px;
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(0, 0, 0, .75);
     border-radius: 4px;
     margin-bottom: 100px;
     padding: 45px 70px 135px;
@@ -166,10 +166,10 @@ body::-webkit-scrollbar-thumb{
 }
 
 .footer {
-    background: rgba(0,0,0,.75);
+    background: rgba(0, 0, 0, .75);
     color: #757575;
     margin: 0px -8px;
-    
+
 }
 
 .footer a {
@@ -181,7 +181,9 @@ body::-webkit-scrollbar-thumb{
     text-decoration: underline;
 }
 
-.footer p, li, ul{
+.footer p,
+li,
+ul {
     list-style: none;
     padding: 0%;
     max-width: 1000px;
@@ -242,7 +244,7 @@ body::-webkit-scrollbar-thumb{
     .footer-linea hr {
         visibility: hidden;
     }
-    
+
     .footer {
         padding-left: 54px;
     }
@@ -260,7 +262,7 @@ body::-webkit-scrollbar-thumb{
     body {
         background: #000;
     }
-   
+
     .logo {
         height: 50px;
         width: auto;
@@ -286,7 +288,7 @@ body::-webkit-scrollbar-thumb{
     .footer-linea hr {
         border-color: #757575;
     }
-    
+
     .footer {
         padding-left: 35px;
     }
@@ -305,7 +307,7 @@ body::-webkit-scrollbar-thumb{
     .logo {
         margin-top: 24px;
     }
-    
+
     .bloque-login {
         display: flex;
         flex-direction: column;
